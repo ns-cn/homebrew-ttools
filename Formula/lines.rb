@@ -6,13 +6,8 @@ class Lines < Formula
   sha256 ""
 
   def install
-    # Remove unrecognized options if warned by configure
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    # system "cmake", ".", *std_cmake_args
-    system "make", "install" # if this fails, try separate make/make install steps
+    system "mv lines_darwin lines"
+    bin.install "lines"
   end
 
   test do
