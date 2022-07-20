@@ -5,9 +5,6 @@ class Lines < Formula
   version "1.01"
   sha256 ""
 
-  # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
-
   def install
     # Remove unrecognized options if warned by configure
     system "./configure", "--disable-debug",
