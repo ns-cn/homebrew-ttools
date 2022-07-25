@@ -1,8 +1,8 @@
 class Lines < Formula
-  desc "charater line tools"
+  desc "character line tools"
   homepage "https://github.com/ns-cn/ttools/"
-  url "https://github.com/ns-cn/ttools/releases/download/v.lines%40latest/lines_darwin"
-  version "1.01"
+  url "https://github.com/ns-cn/ttools/releases/download/v.lines-1.02/lines_darwin"
+  version "1.02"
   sha256 ""
 
   def install
