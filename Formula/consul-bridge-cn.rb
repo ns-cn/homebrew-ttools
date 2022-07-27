@@ -6,6 +6,7 @@ class ConsulBridgeCn < Formula
   sha256 ""
 
   def install
+    system "mv 133491 consul-bridge"
     bin.install "consul-bridge"
   end
 
