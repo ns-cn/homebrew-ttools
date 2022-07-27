@@ -7,7 +7,7 @@ class ConsulBridgeCn < Formula
 
   def install
     system "mv 133491 consul-bridge"
-    system "chmod 755 consul-bridge"
+    system "chmod 777 consul-bridge"
     bin.install "consul-bridge"
   end
 
