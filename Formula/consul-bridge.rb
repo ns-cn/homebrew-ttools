@@ -1,7 +1,7 @@
 class ConsulBridge < Formula
   desc "bridge between different consul envirment"
   homepage "https://github.com/ns-cn/consul-bridge/"
-  url "https://github.com/ns-cn/consul-bridge/releases/download/1.0.8/consul_bridge_darwin"
+  url "https://github.com/ns-cn/consul-bridge/releases/download/v1.0.8/consul_bridge_darwin"
   version "1.0.8"
   sha256 ""
 
